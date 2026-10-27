@@ -24,3 +24,6 @@
 - 週の集計・4:00の日付境界は簡易実装です。履歴の目標変更・60日アーカイブ・複数グループ承認の厳密な扱いなどは本番バックエンドで実装する必要があります。
 - サンプルユーザー切替は実アカウントではありません。グループ招待コードもデモ内でのみ有効です。
 - フォントは Google Fonts の M PLUS Rounded 1c と Noto Sans JP を使用。オフラインではシステムフォントにフォールバックします。
+
+
+v4.1: tap-to-complete reliable fallback, start/complete/approval animations, group four-tile mosaics, other-member timeline, approval inbox carousel, achievement history and profile photo. Local demo only.
