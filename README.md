@@ -1,1 +1,8 @@
-TANDEM v4.2 UI demo. Static localStorage preview; no Supabase sync or push. New: two-column visual group timeline, vivid action colors, nudge indicators, one-button approval dismissal, repeat-task editor, WebAudio feedback (requires user gesture), vibration where supported. Recurring schedule edits are staged as pendingSchedule and do not yet implement period-boundary application; production backend must implement this. Upload root files to GitHub Pages.
+# TANDEM v4.3 UI demo
+
+- Photos: browser-side WebP conversion; attempts to reach ~200 KB by lowering quality and dimensions (may exceed target for some images). Original is not uploaded.
+- Task cards: subdued completion button for one-off tasks due more than 3 days away; urgent tasks remain bright.
+- Nudges: visible while task remains incomplete; automatically hidden when the corresponding task is completed after the nudge.
+- Group feed: image tiles now show the task name.
+- Settings > recurring tasks: add, edit and archive daily/weekly tasks.
+- This is a localStorage demo, not real cross-device sync. The existing browser's demo data is retained.
