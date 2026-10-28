@@ -37,3 +37,12 @@
 
 /* Completion notes in group and all-activity feeds */
 .feed-tile-note{margin:0 10px 4px;padding:10px 11px;border-radius:11px;background:#0000000d;display:flex;flex-direction:column;gap:5px;max-width:100%;text-align:left}.feed-note-label{font-size:10px;font-weight:800;opacity:.72}.feed-note-body{font-size:12px;font-weight:600;line-height:1.55;overflow-wrap:anywhere;white-space:pre-wrap;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:4;line-clamp:4;overflow:hidden}
+
+/* Beta: iPhone status bar / Dynamic Island safe area */
+.top{height:auto;min-height:76px;padding-top:calc(20px + env(safe-area-inset-top, 0px));padding-left:max(22px,env(safe-area-inset-left,0px));padding-right:max(22px,env(safe-area-inset-right,0px))}
+.topright .iconbtn,.topright .avatar{min-width:44px;min-height:44px}
+.backlog-section{margin-top:30px;padding-top:18px;border-top:1px solid var(--line)}
+.backlog-hint{line-height:1.7;margin:-5px 0 12px}
+.backlog-add{width:100%;margin-bottom:12px;background:var(--panel2);border:1px dashed var(--line);color:var(--lime)}
+
+.tile-nudge.already-nudged{background:#70494a!important;color:#f2c9c9!important;opacity:.68}
