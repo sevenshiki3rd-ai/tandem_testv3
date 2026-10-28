@@ -37,3 +37,7 @@
 
 /* Completion notes in group and all-activity feeds */
 .feed-tile-note{margin:0 10px 4px;padding:10px 11px;border-radius:11px;background:#0000000d;display:flex;flex-direction:column;gap:5px;max-width:100%;text-align:left}.feed-note-label{font-size:10px;font-weight:800;opacity:.72}.feed-note-body{font-size:12px;font-weight:600;line-height:1.55;overflow-wrap:anywhere;white-space:pre-wrap;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:4;line-clamp:4;overflow:hidden}
+
+/* Already nudged: visible but less prominent, remains actionable. */
+.tile-nudge.nudge-sent,.small-btn.nudge-sent{background:#9c6269!important;color:#f5e2e3!important;box-shadow:none!important;opacity:.72;filter:none!important;animation:none!important}
+.tile-nudge.nudge-sent:active,.small-btn.nudge-sent:active{opacity:.9}
