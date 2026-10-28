@@ -3,5 +3,5 @@
 window.TANDEM_CONFIG = {
   url: 'https://ypkgpzypdtxwwnyvtdjy.supabase.co',
   publishableKey: 'sb_publishable_zUXS_sKGjCA71LILjiKLWA_tBVoE0QO',
-  vapidPublicKey: 'BNVELwcrPCwchLTuWzSQhRfcH3mYbHXRtGsli3nu8VKwtHYxAGHSmt-wR7s-ddH4DcPxc6CHoICWBXPPLMCtPFk'
+  vapidPublicKey: 'BFblwZ6esXoHBH3vjbAiHd0hGBJ7_rD-2Q_7efmpwg_rAv_SPw5BQbl8Ixp1VsBNDuXOivqjAWSoRgasHwg_-wY'
 };
