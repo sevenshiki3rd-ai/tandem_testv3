@@ -37,7 +37,7 @@ Deno.serve(async req=>{
   if(done?.length)return json(200,{sent:0});
   const {error:duplicate}=await db.from('push_dispatches').insert({key:'nudge:'+r.id});
   if(duplicate)return json(200,{sent:0,reason:'already dispatched'});
-  const sent=await sendTo(r.recipient,{title:'🔴 発破が届いた！',body:`${task.title} — ${r.message}`,tag:'nudge-'+r.id});
+  const sent=await sendTo(r.recipient,{title:'誰かがあなたの成長に期待してる！',body:`「${task.title}」の達成を応援しています！`,tag:'nudge-'+r.id});
   return json(200,{sent});
  }
  if(body.action==='hourly'){
